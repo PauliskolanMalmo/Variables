@@ -276,6 +276,7 @@ GameObject:
   - component: {fileID: 1705235080}
   - component: {fileID: 1705235079}
   - component: {fileID: 1705235083}
+  - component: {fileID: 1705235084}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -374,3 +375,19 @@ MonoBehaviour:
   score: 120
   hasAllKeys: 0
   ammoCount: 0
+--- !u!114 &1705235084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705235078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60700721c4dce4897b0aacd95464b134, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Sword
+  itemDescription: Power Sword
+  itemIcon: {fileID: 0}
+  attackStrength: 20
