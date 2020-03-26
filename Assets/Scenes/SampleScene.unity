@@ -278,6 +278,7 @@ GameObject:
   - component: {fileID: 1705235083}
   - component: {fileID: 1705235084}
   - component: {fileID: 1705235085}
+  - component: {fileID: 1705235086}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -399,7 +400,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1705235078}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e29d51613fbb24e3d96aed575c7e6527, type: 3}
   m_Name: 
@@ -407,3 +408,20 @@ MonoBehaviour:
   bill: 40
   tip: 20
   totalAmount: 0
+--- !u!114 &1705235086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1705235078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8647e9a6a54a84810868ef9ce1b9b108, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  q1: 0
+  q2: 0
+  q3: 0
+  q4: 0
+  q5: 0
